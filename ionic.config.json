@@ -1,0 +1,7 @@
+{
+  "name": "mardisa-agro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
