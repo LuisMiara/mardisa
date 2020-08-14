@@ -44,7 +44,8 @@
   --ion-color-warning-tint: #ffca22;
 
   /** danger **/
-  --ion-color-danger: #eb445a;
+  
+  --ion-color-danger: #f6482f;
   --ion-color-danger-rgb: 235, 68, 90;
   --ion-color-danger-contrast: #ffffff;
   --ion-color-danger-contrast-rgb: 255, 255, 255;
@@ -74,7 +75,32 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /*Mardisa Agro*/
+  --ion-color-mardisa: #f6482f;
+  --ion-color-mardisa-rgb: 235, 68, 90;
+  --ion-color-mardisa-contrast: #ffffff;
+  --ion-color-mardisa-contrast-rgb: 255, 255, 255;
+  --ion-color-mardisa-shade: #cf3c4f;
+  --ion-color-mardisa-tint: #ed576b;
+
+  ion-tab-button.tab-selected {
+    ion-icon, ion-label {
+      color: var(--ion-color-mardisa) !important;
+      --ion-color-base: var(--ion-color-base) !important;
+    }
+  }
 }
+
+.ion-color-mardisa{
+  --ion-color-base: var(--ion-color-mardisa);
+  --ion-color-base-rgb: var(--ion-color-mardisa-rgb);
+  --ion-color-contrast: var(--ion-color-mardisa-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-mardisa-constrast-rgb);
+  --ion-color-shade: var(--ion-color-mardisa-shade);
+  --ion-color-tint: var(--ion-color-mardisa-tint);
+}
+
 
 @media (prefers-color-scheme: dark) {
   /*
@@ -145,7 +171,7 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
-  }
+  }  
 
   /*
    * iOS Dark Theme
@@ -229,4 +255,5 @@
 
     --ion-card-background: #1e1e1e;
   }
+  
 }
