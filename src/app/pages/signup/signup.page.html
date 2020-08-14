@@ -1,9 +1,37 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="mardisa">
     <ion-title  align="center">Cadastro</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div align="center">
+    <app-logo></app-logo>
+  </div>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Usuário</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Repita a Senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" shape="round" color="mardisa" (click)="navigationToHomePage()">Cadastrar</ion-button>
+    </ion-list>
+  </form>
 
 </ion-content>
+
