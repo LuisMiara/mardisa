@@ -90,6 +90,11 @@
       --ion-color-base: var(--ion-color-base) !important;
     }
   }
+
+  span.swiper-pagination-bullet {
+    background-color: var(--ion-color-mardisa) !important;
+    color:var(--ion-color-mardisa) !important;
+  }
 }
 
 .ion-color-mardisa{
